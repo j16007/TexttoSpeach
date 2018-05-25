@@ -13,7 +13,7 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils;
 public class Speech01_main {
 	public static void main(String[] args){
 		TextToSpeech synthesizer = new TextToSpeech();
-		synthesizer.setUsernameAndPassword("551cec2c-37d1-4364-9df8-6a75b9d074e8", "TCBYfu2es6yO");
+		synthesizer.setUsernameAndPassword("j16007", "j16007");
 		String translation="日本語";
 		SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 			       .text(translation)
